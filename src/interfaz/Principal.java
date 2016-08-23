@@ -5,6 +5,8 @@
  */
 package interfaz;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author USER
@@ -27,11 +29,120 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jTextField3 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        txtInversionUno = new javax.swing.JTextField();
+        txtInversionDos = new javax.swing.JTextField();
+        txtInversionTres = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        txtPorcentajeUno = new javax.swing.JTextField();
+        txtPorcentajeDos = new javax.swing.JTextField();
+        txtPorcentajeTres = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        txtInversionTotal = new javax.swing.JTextField();
+        cmdCalcular = new javax.swing.JButton();
+        cmdBorrar = new javax.swing.JButton();
+
+        jTextField3.setText("jTextField3");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        jLabel1.setText("PORCENTAJES DE INVERSION");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 20, 280, -1));
+
+        jLabel2.setText("Inversion 1:");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
+
+        jLabel3.setText("Inversion 2:");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, -1));
+
+        jLabel4.setText("Inversion 3:");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, -1, -1));
+        getContentPane().add(txtInversionUno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, 60, -1));
+
+        txtInversionDos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtInversionDosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtInversionDos, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 70, 60, -1));
+
+        txtInversionTres.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtInversionTresActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtInversionTres, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 70, 60, -1));
+
+        jLabel5.setText("%");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
+
+        txtPorcentajeUno.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPorcentajeUnoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtPorcentajeUno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 60, -1));
+        getContentPane().add(txtPorcentajeDos, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 60, -1));
+        getContentPane().add(txtPorcentajeTres, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 60, -1));
+
+        jLabel6.setText("%");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, -1, -1));
+
+        jLabel7.setText("%");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel8.setText("Inversion Total :");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, -1, -1));
+
+        txtInversionTotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtInversionTotalActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtInversionTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, 120, -1));
+
+        cmdCalcular.setText("Calcular");
+        cmdCalcular.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmdCalcularActionPerformed(evt);
+            }
+        });
+        getContentPane().add(cmdCalcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 260, -1, -1));
+
+        cmdBorrar.setText("Borrar");
+        getContentPane().add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 260, -1, -1));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void txtInversionDosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtInversionDosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtInversionDosActionPerformed
+
+    private void txtInversionTresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtInversionTresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtInversionTresActionPerformed
+
+    private void txtPorcentajeUnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPorcentajeUnoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtPorcentajeUnoActionPerformed
+
+    private void txtInversionTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtInversionTotalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtInversionTotalActionPerformed
+
+    private void cmdCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdCalcularActionPerformed
+       
+    }//GEN-LAST:event_cmdCalcularActionPerformed
 
     /**
      * @param args the command line arguments
@@ -69,5 +180,23 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton cmdBorrar;
+    private javax.swing.JButton cmdCalcular;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField txtInversionDos;
+    private javax.swing.JTextField txtInversionTotal;
+    private javax.swing.JTextField txtInversionTres;
+    private javax.swing.JTextField txtInversionUno;
+    private javax.swing.JTextField txtPorcentajeDos;
+    private javax.swing.JTextField txtPorcentajeTres;
+    private javax.swing.JTextField txtPorcentajeUno;
     // End of variables declaration//GEN-END:variables
 }
