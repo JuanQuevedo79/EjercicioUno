@@ -100,13 +100,18 @@ public class Principal extends javax.swing.JFrame {
         jLabel5.setText("%");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
 
+        txtPorcentajeUno.setEditable(false);
         txtPorcentajeUno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPorcentajeUnoActionPerformed(evt);
             }
         });
         getContentPane().add(txtPorcentajeUno, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 90, -1));
+
+        txtPorcentajeDos.setEditable(false);
         getContentPane().add(txtPorcentajeDos, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, 90, -1));
+
+        txtPorcentajeTres.setEditable(false);
         getContentPane().add(txtPorcentajeTres, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, 90, -1));
 
         jLabel6.setText("%");
@@ -119,6 +124,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel8.setText("Inversion Total :");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, -1, -1));
 
+        txtInversionTotal.setEditable(false);
         txtInversionTotal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtInversionTotalActionPerformed(evt);
